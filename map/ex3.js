@@ -70,7 +70,7 @@ function getMoviesFreshness(movies) {
     return element;
   });
 
-  console.log(result);
+  //console.log(result);
   return result;
 }
 

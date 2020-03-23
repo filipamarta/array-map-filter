@@ -38,7 +38,7 @@ function filterOnPrice(products, maxPrice) {
     return product.price < maxPrice;
   });
 
-  console.log(result);
+  //console.log(result);
   return result;
 }
 

@@ -26,7 +26,7 @@ function getPositiveNumbers(numbers) {
 // Instead of running `npm test`, you can then use `node filter/ex1`
 // (you still need to run `npm test` to make sure you did right).
 
-console.log(getPositiveNumbers([-2, -1, 0, 1, 2]));
+//console.log(getPositiveNumbers([-2, -1, 0, 1, 2]));
 
 // DON'T TOUCH THIS!
 module.exports = getPositiveNumbers;

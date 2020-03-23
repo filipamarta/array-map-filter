@@ -53,7 +53,7 @@ function getFoodCategories(foods) {
     return `${food.food} is${toggle}suitable for vegetarians`;
   });
 
-  console.log(result);
+  //console.log(result);
   return result;
 }
 
