@@ -39,6 +39,23 @@ describe('filter - exercice 3', () => {
       }
     ]);
   });
+  it('filterOnPrice (price <= 649)', () => {
+    expect(filterOnPrice(products, 649))
+    .to.deep.equal([
+      {
+        name: 'Xiaomi Mi A2',
+        price: 209
+      },
+      {
+        name: 'Huawei P20',
+        price: 480
+      },
+      {
+        name: 'Huawei P20 Pro',
+        price: 649
+      }
+    ]);
+  });
 
 });
 

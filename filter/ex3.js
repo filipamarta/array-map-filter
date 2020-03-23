@@ -35,7 +35,7 @@ Expected OUTPUT for these sample arguments:
 function filterOnPrice(products, maxPrice) {
 
   const result = products.filter( (product, i) => {
-    return product.price < maxPrice;
+    return product.price <= maxPrice;
   });
 
   //console.log(result);
