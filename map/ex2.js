@@ -42,10 +42,20 @@ Expected OUTPUT for this sample
 
 */
 
+
+
+
+
 function getFoodCategories(foods) {
+  const result = foods.map(food => {
+    let toggle = " ";
+    food.isVegetarian === false ? toggle = " not " : " ";
+    return `${food.food} is${toggle}suitable for vegetarians`;
+  });
+
+  console.log(result);
+  return result;
 }
-
-
 
 // DON'T TOUCH THIS!
 module.exports = getFoodCategories;
